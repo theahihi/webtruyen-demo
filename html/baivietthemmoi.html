@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>themmoi</title>
+  </head>
+  <body>
+    <p style="text-align: right; font-weight: bold">
+      <a href="/html/index.html">Trang chủ</a> |
+      <a href="/html/Giới thiệu.html">Giới thiệu</a> |
+      <a href="/html/tin tức.html">Tin tức</a> |
+      <a href="/html/liên hệ.html">liên hệ</a> |
+      <a href="/html/admin/Quản_trị_bài_viết.html">Quản trị bài viết </a>
+    </p>
+    <h1 style="text-align: center; color: red">Thêm mới bài viết</h1>
+    <form action="/html/admin/baivietthemmoithuchien.html" method="post">
+      <input
+        name="tiêu đề"
+        type="text"
+        placeholder="Tiêu đề"
+        style="width: 100%"
+      />
+      <textarea
+        name="mô tả"
+        id=""
+        placeholder="Mô tả bài Viết"
+        style="width: 100%"
+        rows="5"
+        cols="10"
+      ></textarea>
+      <p>Ảnh minh hoạ : <input name="ảnh minh hoạ" type="file" /></p>
+      <textarea
+        name="nội dung"
+        id=""
+        placeholder="Nội dung bài Viết"
+        style="width: 100%"
+        rows="15"
+        cols="10"
+      ></textarea>
+      <p style="text-align: right">
+        <input type="submit" name="nút thêm " value="Thêm mới" />
+        <input type="reset" name="" reset />
+      </p>
+    </form>
+  </body>
+</html>
